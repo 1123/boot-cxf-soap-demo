@@ -1,6 +1,4 @@
-# Spring Boot Apache CXF SOAP Service
-
-[![Build Status](https://travis-ci.org/briansjavablog/boot-cxf-soap-demo.svg?branch=master)](https://travis-ci.org/briansjavablog/boot-cxf-soap-demo)
+# Spring Boot Apache CXF SOAP Service to Kafka 
 
 
 This demo application generates a SOAP Web service from a WSDL web service description file. 
