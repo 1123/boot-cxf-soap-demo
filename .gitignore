@@ -2,4 +2,5 @@
 .classpath
 .project
 .settings/
-src/generated/java
+src/generated/java.idea
+boot-cxf-soap-demo.iml

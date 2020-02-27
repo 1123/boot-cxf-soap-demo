@@ -18,6 +18,20 @@
 			<xsd:enumeration value="Inactive"/>
 		</xsd:restriction>
 	</xsd:simpleType>
+	<xsd:element name="SaveAccountDetailsRequest">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="accountNumber" type="xsd:string"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="SaveAccountDetailsResponse">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="accountNumber" type="xsd:string"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
 	<xsd:element name="AccountDetailsRequest">
 		<xsd:complexType>
 			<xsd:sequence>

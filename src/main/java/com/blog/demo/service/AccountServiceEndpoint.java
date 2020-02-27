@@ -1,7 +1,5 @@
 package com.blog.demo.service;
 
-import javax.jws.WebService;
-
 import org.springframework.stereotype.Service;
 
 import com.blog.demo.webservices.accountservice.Account;
@@ -28,5 +26,10 @@ public class AccountServiceEndpoint implements com.briansdevblog.accounts.Accoun
 		response.setAccountDetails(account);		
 		return response;
 	}
-	
+
+	@Override
+	public AccountDetailsResponse saveAccountDetails(AccountDetailsRequest parameters) {
+		return null;
+	}
+
 }

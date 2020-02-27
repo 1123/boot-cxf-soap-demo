@@ -18,10 +18,20 @@
 	<wsdl:message name="AccountDetailsResponse">
 		<wsdl:part element="accounts:AccountDetailsResponse" name="parameters" />
 	</wsdl:message>
+	<wsdl:message name="SaveAccountDetailsRequest">
+		<wsdl:part element="accounts:AccountDetailsRequest" name="parameters" />
+	</wsdl:message>
+	<wsdl:message name="SaveAccountDetailsResponse">
+		<wsdl:part element="accounts:AccountDetailsResponse" name="parameters" />
+	</wsdl:message>
 	<wsdl:portType name="AccountService">
 		<wsdl:operation name="GetAccountDetails">
 			<wsdl:input message="tns:AccountDetailsRequest" />
 			<wsdl:output message="tns:AccountDetailsResponse" />
+		</wsdl:operation>
+		<wsdl:operation name="SaveAccountDetails">
+			<wsdl:input message="tns:SaveAccountDetailsRequest" />
+			<wsdl:output message="tns:SaveAccountDetailsResponse" />
 		</wsdl:operation>
 	</wsdl:portType>
 	<wsdl:binding name="AccountServiceSoapBinding" type="tns:AccountService">
