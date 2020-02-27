@@ -19,10 +19,10 @@
 		<wsdl:part element="accounts:AccountDetailsResponse" name="parameters" />
 	</wsdl:message>
 	<wsdl:message name="SaveAccountDetailsRequest">
-		<wsdl:part element="accounts:AccountDetailsRequest" name="parameters" />
+		<wsdl:part element="accounts:SaveAccountDetailsRequest" name="parameters" />
 	</wsdl:message>
 	<wsdl:message name="SaveAccountDetailsResponse">
-		<wsdl:part element="accounts:AccountDetailsResponse" name="parameters" />
+		<wsdl:part element="accounts:SaveAccountDetailsResponse" name="parameters" />
 	</wsdl:message>
 	<wsdl:portType name="AccountService">
 		<wsdl:operation name="GetAccountDetails">
